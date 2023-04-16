@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a815d4f.css",
-    "main.js": "/static/js/main.247ad7c5.js",
+    "main.css": "/static/css/main.bd27414f.css",
+    "main.js": "/static/js/main.27734bfa.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/Youtube.png": "/static/media/Youtube.d0c036bd3476e0be56b9.png",
     "static/media/Movie.png": "/static/media/Movie.733b6261fec6ff421728.png",
     "static/media/Box8.png": "/static/media/Box8.4e947b20d4346b14a171.png",
-    "static/media/surajprofilepic.png": "/static/media/surajprofilepic.39217da8ef8bf4d26bff.png",
+    "static/media/swatiprofilepic.png": "/static/media/swatiprofilepic.39217da8ef8bf4d26bff.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/nordstrom.png": "/static/media/nordstrom.ca34e74d40fd6d50acdf.png",
     "static/media/Saraswati_resume.pdf": "/static/media/Saraswati_resume.bfbaa0670bb12a031bdf.pdf",
@@ -17,12 +17,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/pepsi.png": "/static/media/pepsi.7158a6148095233fc1e6.png",
     "index.html": "/index.html",
-    "main.1a815d4f.css.map": "/static/css/main.1a815d4f.css.map",
-    "main.247ad7c5.js.map": "/static/js/main.247ad7c5.js.map",
+    "main.bd27414f.css.map": "/static/css/main.bd27414f.css.map",
+    "main.27734bfa.js.map": "/static/js/main.27734bfa.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a815d4f.css",
-    "static/js/main.247ad7c5.js"
+    "static/css/main.bd27414f.css",
+    "static/js/main.27734bfa.js"
   ]
 }
