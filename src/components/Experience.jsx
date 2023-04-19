@@ -3,8 +3,7 @@ import { Zoom, Fade } from "react-awesome-reveal";
 import Box8 from "../media/Box8.png";
 import nordstrom from "../media/nordstrom.png";
 import Youtube from "../media/Youtube.png";
-import Movie from "../media/Movie.png"
-
+import Movie from "../media/Movie.png";
 import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/esm/Button";
 import Row from "react-bootstrap/esm/Row";
@@ -21,7 +20,7 @@ const Experience = ({ darkMode }) => {
     <div data-theme={darkMode ? "dark" : "light"}>
       <br></br>
       <Fade>
-        <Container>
+        <Container className="project">
           <br></br>
           <h2 className="lead" align="center">
             <b>- Projects -</b>
@@ -37,71 +36,22 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card" class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={Box8} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              PharmaEasy Clone
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                Pharmaeasy provides consumers with on-demand,
-                                home delivered access to a wide range of
-                                prescription, and teleconsultations thereby
-                                serving their healthcare needs.
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          {/* <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                            alt="html5"
-                            width="40"
-                            height="40"
-                          /> */}
-
-                          {/* <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                            alt="css3"
-                            width="40"
-                            height="40"
-                          /> */}
-
-                          <img
-                            src="https://cdn.cdnlogo.com/logos/r/85/react.svg"
-                            alt="React js"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                            alt="mongodb"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                            alt="nodejs"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                            alt="express"
-                            width="40"
-                            height="40"
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    <Card.Img variant="top" src={Box8} />
+                    <Card.Body>
+                      <Card.Title align="center">PharmaEasy Clone</Card.Title>
+                      <Card.Text>
+                        <p align="center" color="red">
+                          Pharmaeasy provides consumers with on-demand, home
+                          delivered access to a wide range of prescription.
+                        </p>
+                        <h3>Tech stack:</h3>
+                        <p>
+                          <span>React | Nodejs |expressjs| mongodb</span>
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
                   </center>
-                  <br></br>
+
                   <div>
                     <a
                       href="https://pharmeasy-clone-nem201.netlify.app/"
@@ -140,54 +90,24 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={nordstrom} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              BestBuy Clone
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                Shop Best Buy for electronics, computers,
-                                appliances, cell phones, video games & more new
-                                tech. In-store pickup & free 2-day shipping on
-                                thousands of items.
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                            alt="mongodb"
-                            width="40"
-                            height="40"
-                          />
-                          <img
-                            src="https://cdn.cdnlogo.com/logos/r/85/react.svg"
-                            alt="react"
-                            width="40"
-                            height="40"
-                          />
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                            alt="nodejs"
-                            width="40"
-                            height="40"
-                          />
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                            alt="express"
-                            width="40"
-                            height="40"
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    <Card.Img variant="top" src={nordstrom} />
+                    <Card.Body>
+                      <Card.Title align="center">BestBuy Clone</Card.Title>
+                      <Card.Text>
+                        <p align="center">
+                          Shop Best Buy for electronics, computers, appliances,
+                          cell phones, video games & more new tech.
+                        </p>
+                        <h3>Tech stack:</h3>
+                        <p>
+                          <span>
+                            React| Typescript | Nodejs |expressjs| mongodb
+                          </span>
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
                   </center>
-                  <br></br>
+
                   <div>
                     <a
                       href="https://best-buy-tawny.vercel.app/"
@@ -218,7 +138,7 @@ const Experience = ({ darkMode }) => {
                 </Card>
               </Col>
 
-              <Col lg={4} sm={12} >
+              <Col lg={4} sm={12}>
                 <Card
                   align="center"
                   className="exp"
@@ -226,53 +146,23 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div class="flip-card dis">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={Movie} />
-                          <Card.Body>
-                            <Card.Title align="center">Movie App</Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                It's a movie app, users can search various type
-                                of movie and also see the Popular, Top Rated as
-                                well as the Upcoming Movies.
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                        <img
-                            src="https://cdn.cdnlogo.com/logos/r/85/react.svg"
-                            alt="React js"
-                            width="40"
-                            height="40"
-                          />
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                            alt="react"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                            alt="html5"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                            alt="css3"
-                            width="40"
-                            height="40"
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    <Card.Img variant="top" src={Movie} />
+                    <Card.Body>
+                      <Card.Title align="center">Certidigital</Card.Title>
+                      <Card.Text>
+                        <p align="center">
+                          Admin will generates certificates for users and sends them to their emails
+                          and student will view their certificates and can
+                          share them on social media platforms.
+                        </p>
+                        <h3>Tech stack:</h3>
+                        <p>
+                          <span>React | Redux | Expressjs | Nodejs | MongoDB</span>
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
                   </center>
-                  <br></br>
+
                   <div>
                     <a
                       href="https://clinquant-puppy-bbdc8d.netlify.app/"
@@ -287,7 +177,7 @@ const Experience = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/Saraswati121/Movie-App"
+                      href="https://github.com/masai-builds/Certidigital-fe"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -302,7 +192,7 @@ const Experience = ({ darkMode }) => {
                   <br></br>
                 </Card>
               </Col>
-              
+
               <Col lg={4} sm={12} className="dis">
                 <Card
                   align="center"
@@ -311,50 +201,30 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={Youtube} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Youtube Clone
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                An app to watch youtube videos fetching API.
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        <div className="flip-card-back">
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                            alt="react"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                            alt="html5"
-                            width="40"
-                            height="40"
-                          />
-
-                          <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                            alt="css3"
-                            width="40"
-                            height="40"
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    <Card.Img variant="top" src={Youtube} />
+                    <Card.Body>
+                      <Card.Title align="center">Placement Portal</Card.Title>
+                      <Card.Text>
+                        <p align="center">
+                          We will
+                          build an website where Placement team will bring
+                          companies from different sources and update them on
+                          the portal so that students can apply according to
+                          their skill sets.
+                        </p>
+                        <h3>Tech stack:</h3>
+                        <p>
+                          <span>
+                            React | Redux | Expressjs | Nodejs | MongoDB
+                          </span>
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
                   </center>
-                  <br></br>
+
                   <div>
                     <a
-                      href="https://endearing-pastelito-e04312.netlify.app/"
+                      href="https://masai-placement-portal.netlify.app/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -366,7 +236,7 @@ const Experience = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/Saraswati121/Youtube-clone"
+                      href="https://github.com/masai-builds/team7-fe"
                       target="_blank"
                       rel="noreferrer noopener"
                     >

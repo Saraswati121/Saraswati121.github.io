@@ -7,7 +7,7 @@
     --text-color: black;
     --page-color: whitesmoke;
     --hello: #8e8d8a;
-    --description: black;
+    --description: rgb(30, 28, 28);
     --name: #690fad;
     --border-width: 1px;
 }
@@ -101,8 +101,9 @@
 
 .lead {
     color: var(--description);
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: 300;
+    filter: drop-shadow(3px 10px 4px #af66e6);
 }
 
 code {
@@ -148,8 +149,6 @@ strong,
 .skill-h {
     margin-top: 15px;
 }
-
-.skills-img {}
 
 .skills-btn {
     width: 70px;
@@ -246,12 +245,14 @@ strong,
 
 .contact-text {
     color: var(--text-color);
+    font-size: 17px;
 }
 
 .footer-text {
     text-align: center;
     color: var(--text-color);
     margin-top: 20px;
+    font-size: 21px;
 }
 
 .img img {
@@ -267,6 +268,42 @@ strong,
 
 }
 
+.gitSts{
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait),
+       only screen and (max-width: 768px) and (orientation: landscape) {
+  .gitSts {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}
+
+/* iPad Mini (Portrait) */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .project {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+} */
+  
+text.ContributionCalendar-label {
+    fill: #716464;
+    font-size: 11px;
+}
+.text-muted {
+    color: #6c757d!important;
+    font-size: 17px;
+}
+.table-column {
+    border-left: 1px solid #6c757d;
+}
 .flip-card-back img {
     width: 30%;
     height: 2%;

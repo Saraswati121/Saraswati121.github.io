@@ -1,7 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./styles.css";
-
 import resume from "../media/Saraswati_resume.pdf";
 import transcript from "../media/Saraswati_resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -77,9 +76,10 @@ const About = ({ darkMode }) => {
     <div className="about">
       <br></br>
       <br></br>
+      <br></br>
       <Fade>
+      <Row>
         <Container align="center">
-          <Row>
             <Col lg={8} align="center">
               <Card className="nbcard">
                 <Card.Body>
@@ -88,7 +88,7 @@ const About = ({ darkMode }) => {
                   </Card.Title>
                   <br></br>
                   <Card.Text>
-                    <p>
+                    <p style={{fontSize:"22px"}}>
                       Enthusiastic aspiring full-stack web developer specialized
                       in <strong> MERN </strong> stack having fascination
                       towards computer and technology. Keen to create new and
@@ -99,7 +99,7 @@ const About = ({ darkMode }) => {
                       something productive.
                     </p>
                   </Card.Text>
-
+                    <br />
                   <a href={resume} target="_blank" rel="noreferrer noopener">
                     <Button
                       variant={darkMode ? "outline-light" : "outline-dark"}
@@ -135,65 +135,12 @@ const About = ({ darkMode }) => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} align="center">
-              <Card className="nbcard">
-                <Card.Body>
-                  <Card.Title>
-                    <h2 className="lead">Let's Connect!</h2>
-                  </Card.Title>
-                  <br></br>
-
-                  <div>
-                    <p>
-                      Saraswati Panda <br /> Ganjam Odisha <br /> 6370875765
-                      <br />
-                      thesaraswati.panda@gmail.com
-                    </p>
-                  </div>
-
-                  <br />
-
-                  <a
-                    className="social-icons"
-                    href="https://www.linkedin.com/in/saraswati-panda/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                    >
-                      <FontAwesomeIcon
-                        className="dark"
-                        size="lg"
-                        icon={faLinkedinIn}
-                      />
-                    </Button>
-                  </a>
-
-                  <a
-                    className="social-icons"
-                    href="https://github.com/Saraswati121"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Button
-                      variant={darkMode ? "outline-light" : "outline-dark"}
-                    >
-                      <FontAwesomeIcon
-                        className="dark"
-                        size="lg"
-                        icon={faGithub}
-                      />
-                    </Button>
-                  </a>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+        
           <br></br>
           <hr></hr>
           <br></br>
         </Container>
+        </Row>
       </Fade>
     </div>
   );

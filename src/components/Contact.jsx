@@ -1,4 +1,4 @@
-import { useState, React } from "react";
+import React,{ useState,useEffect } from "react";
 import emailjs from "emailjs-com";
 import swal from "sweetalert";
 import contactLight from "../media/pepsi.png";
@@ -7,6 +7,7 @@ import Button from "react-bootstrap/esm/Button";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/Col";
+import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -49,9 +50,11 @@ const Contact = ({ darkMode }) => {
       message: "",
     });
   };
+  
 
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
+      <br></br>
       <br></br>
       <Container>
         <Row>
