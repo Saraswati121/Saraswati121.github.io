@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd27414f.css",
-    "main.js": "/static/js/main.27734bfa.js",
+    "main.css": "/static/css/main.a9f05c3e.css",
+    "main.js": "/static/js/main.2dacfacc.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
-    "static/media/Youtube.png": "/static/media/Youtube.d0c036bd3476e0be56b9.png",
-    "static/media/Movie.png": "/static/media/Movie.733b6261fec6ff421728.png",
     "static/media/Box8.png": "/static/media/Box8.4e947b20d4346b14a171.png",
     "static/media/swatiprofilepic.png": "/static/media/swatiprofilepic.39217da8ef8bf4d26bff.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/nordstrom.png": "/static/media/nordstrom.ca34e74d40fd6d50acdf.png",
+    "static/media/Youtube.png": "/static/media/Youtube.4c668769d185174aed21.png",
     "static/media/Saraswati_resume.pdf": "/static/media/Saraswati_resume.bfbaa0670bb12a031bdf.pdf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -16,13 +15,14 @@
     "static/media/sam.png": "/static/media/sam.064ae04e11275f561e04.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/pepsi.png": "/static/media/pepsi.7158a6148095233fc1e6.png",
+    "static/media/Movie.png": "/static/media/Movie.0c33afa6f5cc71fb010a.png",
     "index.html": "/index.html",
-    "main.bd27414f.css.map": "/static/css/main.bd27414f.css.map",
-    "main.27734bfa.js.map": "/static/js/main.27734bfa.js.map",
+    "main.a9f05c3e.css.map": "/static/css/main.a9f05c3e.css.map",
+    "main.2dacfacc.js.map": "/static/js/main.2dacfacc.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd27414f.css",
-    "static/js/main.27734bfa.js"
+    "static/css/main.a9f05c3e.css",
+    "static/js/main.2dacfacc.js"
   ]
 }
